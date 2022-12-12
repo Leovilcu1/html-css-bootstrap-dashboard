@@ -1,0 +1,31 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.app{
+    height: calc(100vh - 56px);
+}
+.left{
+    background-color: red;
+    width: 150px;
+}
+.left ul{
+    height: 100%;
+}
+.right{
+    background-color: lightgreen;
+    width: calc(100% - 100px);
+}
+
