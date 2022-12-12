@@ -8,9 +8,7 @@
     width: 80%;
     
 }
-a{
-    text-decoration: none;
-}
+
 li{
     list-style: none;
 }
@@ -18,14 +16,14 @@ li{
     height: calc(100vh - 56px);
 }
 .left{
-    background-color: red;
-    width: 150px;
+
+    width: 300px;
 }
-.left ul{
-    height: 100%;
-}
+
 .right{
     background-color: lightgreen;
-    width: calc(100% - 100px);
+    width: calc(100% - 150px);
 }
+
+
 
