@@ -8,22 +8,30 @@
     width: 80%;
     
 }
-
-li{
-    list-style: none;
+:root{
+    --my-dark:#051e34;
+    --my-gray:#e1e3e4;
+    --my-bell:#fd8f00;
 }
 .app{
     height: calc(100vh - 56px);
 }
 .left{
-
-    width: 300px;
+    width: 150px;
 }
 
 .right{
     background-color: lightgreen;
     width: calc(100% - 150px);
 }
+.my-dark{
+    background-color: var(--my-dark);
+}
 
-
-
+.my-icon-input{
+    background: url(../img/search.svg) no-repeat scroll 7px 10px var(--my-gray);
+    padding-left:30px;
+}
+.my-bell{
+    color: var(--my-bell);
+}
