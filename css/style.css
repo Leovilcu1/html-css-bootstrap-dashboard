@@ -9,20 +9,34 @@
     
 }
 :root{
+    --my-primary:#f8f9fa;
     --my-dark:#051e34;
-    --my-gray:#e1e3e4;
+    --my-gray:#bbbfc1;
     --my-bell:#fd8f00;
+    --my-gray-dark:#5b5858;
+    --my-opasity:rgba(0, 0, 0, 0.3);
+}
+header{
+    height: 60px;
+}
+.logo-mob{
+    width: 40px;
+}
+.my-gray-dark{
+    color: var(--my-gray-dark);
 }
 .app{
-    height: calc(100vh - 56px);
+    height: calc(100vh - 60px);
 }
-.left{
+aside{
     width: 150px;
 }
 
-.right{
-    background-color: lightgreen;
+.main{
     width: calc(100% - 150px);
+}
+.my-opasity{
+    background-color: var(--my-opasity);
 }
 .my-dark{
     background-color: var(--my-dark);
@@ -35,3 +49,20 @@
 .my-bell{
     color: var(--my-bell);
 }
+.bg-my-primary{
+    background-color: var(--my-primary);
+}
+
+
+
+/* media query */
+@media all and ( max-width: 992px){
+    aside{
+        width: 70px;
+    }
+    
+    .main{
+        width: calc(100% - 70px);
+    }
+}
+
