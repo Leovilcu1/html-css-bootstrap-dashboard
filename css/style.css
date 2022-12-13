@@ -6,15 +6,16 @@
 }
 .container{
     width: 80%;
-    
 }
 :root{
     --my-primary:#f8f9fa;
     --my-dark:#051e34;
-    --my-gray:#bbbfc1;
+    --my-gray:#e4e4e4;
+    --my-gray-main:#f7f7f7;
     --my-bell:#fd8f00;
     --my-gray-dark:#5b5858;
     --my-opasity:rgba(0, 0, 0, 0.3);
+    --color-icon-main:#f26551;
 }
 header{
     height: 60px;
@@ -30,16 +31,14 @@ header{
 }
 aside{
     width: 150px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: var(--my-dark);
 }
-
 .main{
     width: calc(100% - 150px);
 }
 .my-opasity{
     background-color: var(--my-opasity);
-}
-.my-dark{
-    background-color: var(--my-dark);
 }
 
 .my-icon-input{
@@ -52,8 +51,31 @@ aside{
 .bg-my-primary{
     background-color: var(--my-primary);
 }
-
-
+.my-gray-main{
+    background-color: var(--my-gray-main);
+}
+.color-icon-main{
+    background-color: var(--color-icon-main);
+}
+.green{
+    background-color: #198755;
+    font-size: 12px;
+}
+.yellow{
+    background-color :rgb(219 167 10);
+    font-size: 12px;
+}
+.red{
+    background-color: #dc3545;
+    font-size: 12px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.hover:hover{
+    background-color: rgb(196, 196, 196);
+    color: white;
+}
 
 /* media query */
 @media all and ( max-width: 992px){
